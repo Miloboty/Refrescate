@@ -1,0 +1,55 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    background-image:url(../Imagénes/blanco.jpg);
+ 
+}
+
+
+
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-content: space-between;
+}
+
+.logo{
+    width: 130px;
+    cursor: pointer;
+}
+
+.navbar{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+nav{
+    float: right;
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li{    
+    margin: 15px;
+    padding: 12px 0;
+    float: left;
+    position: relative;
+    font-size: 1.2rem;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #444;
+        font-weight: bold;
+     }
+
+  
